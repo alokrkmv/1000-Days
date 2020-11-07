@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alok.kilkari.Article1"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bp4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:hint="Explain your problem in detail."
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:text="5 things a mom needs after having a baby"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="top"
+        android:hint="Explain your problem in detail."
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:id="@+id/problem"
+        android:text="Oh the joys of motherhood! Everyone tells you about it, they tell you about the blissful feeling of carrying your child in the womb and they talk about the pregnancy glow. They shower you with abundant information on baby care and they discuss at length how one should eat, sleep and dress. What they don’t mention are the PREGNANCY WOES!While new moms do cherish every part of their motherhood journey. They can enjoy it even more with the help of some amazing things. Here are five things every new mother should have:There's a lot of pressure on the shoulders while the mother is sitting down with the baby for breastfeeding or carrying him around to get him to sleep. A breastfeeding pillow or neck pillow can make a mother’s job a lot easier. A breastfeeding pillow set provides gentle support to both the baby and the mother. It helps in getting the correct posture while feeding and can be easily managed . It enhances the feeding experience for both mother and child."
+        android:textSize="13dp"/>
+
+</LinearLayout>

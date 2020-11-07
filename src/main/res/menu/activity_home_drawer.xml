@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/one" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/account"
+            android:title="@string/Profile" />
+    </group>
+    <group android:id="@+id/two" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_vaccination"
+            android:icon="@drawable/vaccination"
+            android:title="Important Vaccination" />
+    </group>
+    <group android:id="@+id/three" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_childbirth"
+            android:icon="@drawable/childbirth"
+            android:title="@string/ChildBirth" />
+    </group>
+    <group android:id="@+id/four" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_preg"
+            android:icon="@drawable/preg"
+            android:title="@string/Preg" />
+    </group>
+    <group android:id="@+id/five" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@drawable/newborn"
+            android:title="@string/New" />
+    </group>
+    <group android:id="@+id/six" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_growth"
+            android:icon="@drawable/growth"
+            android:title="@string/Growth" />
+    </group>
+    <group android:id="@+id/seven" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_exercise"
+            android:icon="@drawable/exercise"
+            android:title="@string/Exercise" />
+    </group>
+    <group android:id="@+id/eight" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@drawable/consult"
+            android:title="@string/Doctor" />
+    </group>
+    <group android:id="@+id/nine" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fdoctor"
+            android:icon="@drawable/finddoctor"
+            android:title="@string/findDoctor" />
+    </group>
+    <group android:id="@+id/ten" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_babysitter"
+            android:icon="@drawable/babysitter"
+            android:title="@string/BabySitter" />
+    </group>
+
+
+
+
+
+</menu>

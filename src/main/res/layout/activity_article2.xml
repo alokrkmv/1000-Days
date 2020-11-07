@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alok.kilkari.Article1"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bp1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:hint="Explain your problem in detail."
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:text="Things to Do to Have a Healthy Pregnancy"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="top"
+        android:hint="Explain your problem in detail."
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:id="@+id/problem"
+        android:text="There are so many things that you might think do not
+        really have any bearing on whether or not you and your partner have a healthy baby,but the more we study, the more we find that what you do before you get pregnant or before you know you are pregnant really does have a huge effect on the health of your pregnancy and baby for a lifetime.Start taking a prenatal vitamin, with folic acid,Begin eliminating hazards from your life (chemicals, x-rays, etc.),Discontinue smoking, caffeine and alcohol before trying to get pregnant.Discuss birth control use until you're ready to conceive Learn about the conception process and how to get pregnant,Have your partner join you on a road to good health Become aware of families you know and their lives. Having these families as role models of both what you want to do and what you don't want to do is beneficial."
+        android:textSize="13dp"/>
+
+</LinearLayout>

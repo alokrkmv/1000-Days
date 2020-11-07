@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alok.kilkari.Article1"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bp2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:hint="Explain your problem in detail."
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:text="Tips for Taking a Pregnancy Test"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="top"
+        android:hint="Explain your problem in detail."
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:id="@+id/problem"
+        android:text="Pregnancy tests are supposed to be foolproof these days. In many ways they are foolproof. Though even though the tests have gotten easier to take, they still involve a component that we can't quite make use reason - our emotions.Any woman who has ever sat over a small white disk filled with her urine, praying for a certain result will tell you, emotions play a big part in pregnancy testing. I personally have been known to hold a pregnancy test up to the wall to compare white backgrounds to see if the test was positive or not.By using urine from the first thing in the morning you actually have more of the hormone (hCG) that the test is looking for built up in your urine. This makes it more likely to get an accurate test reading. I know you're anxious, we all are when faced with the small pregnancy test that has the potential to change our lives forever. But, before you even enter the bathroom, pull out the instructions and read them thoroughly. Be sure you know what you're doing, don't assume you remember from previous tests."
+        android:textSize="13dp"/>
+
+</LinearLayout>

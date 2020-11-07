@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.alok.kilkari.Register"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/baby" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tips"
+            android:text="Articles/Tips"
+            android:background="@drawable/button_rounded_corner_gradiant"
+            android:layout_marginTop="2dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/babydiet"
+            android:layout_marginTop="2dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="dietplan"
+            android:text="Baby Diet Plan"
+            android:background="@drawable/button_rounded_corner_gradiant"
+            android:layout_marginTop="2dp"/>
+
+    </LinearLayout>
+</ScrollView>

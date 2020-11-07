@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alok.kilkari.Article1"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bp3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:hint="Explain your problem in detail."
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:text="Colic pain in babies: What every parent should know"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="top"
+        android:hint="Explain your problem in detail."
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:id="@+id/problem"
+        android:text="A baby is a bundle of joy and a big responsibility too. As a mother, it can sometimes get overwhelming to take complete care of the baby. You are responsible for the baby’s care, nourishment, and life. It is difficult to understand the needs of newborns as they cannot express through speech. It is important for a mother to learn to read the body language and cries of the baby to try and relieve discomfort.Colic is not a well-defined problem but an indication of some kind of discomfort that a baby experiences. Research says that the causes of colic are not precise.A well-fed, otherwise healthy baby may cry indefinitely and inconsolably. The crying may last for three hours or more per day, and may occur thrice a week. Although, it is painful for the parents to witness the baby’s distress, the fact that colic is not a long-lasting problem is a consoling factor. Both male and female, and bottle fed and breastfed babies are prone to colic."
+        android:textSize="13dp"/>
+
+</LinearLayout>
